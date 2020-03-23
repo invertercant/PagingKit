@@ -28,7 +28,7 @@ import UIKit
 /// Basic style of cell
 /// - center text
 /// - emphasize text to focus color
-public class TitleLabelMenuViewCell: PagingMenuViewCell {
+open class TitleLabelMenuViewCell: PagingMenuViewCell {
 
     ///  The text color when selecred
     public var focusColor = UIColor.pk.focusRed {
@@ -123,7 +123,7 @@ public class TitleLabelMenuViewCell: PagingMenuViewCell {
         ])
     }
     
-    override public var isSelected: Bool {
+    override open var isSelected: Bool {
         didSet {
             if isSelected {
                 imageView.tintColor = focusColor
