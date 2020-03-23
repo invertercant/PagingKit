@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.author           = { "Kazuhiro Hayashi" => "k.hayashi.info@gmail.com" }
   s.source           = { :git => "https://github.com/kazuhiro4949/PagingKit.git", :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = "PagingKit/**/*.{h,m,swift}"
 end
